@@ -44,12 +44,19 @@ namespace helpdesk_service
 
             //adding card to card database//
             CardDetailsDB.AddingCard(cardModel);
-            MessageBox.Show("Kart satışa çıxarıldı" +"\n" + "Istifadəçi artıq kart ilə qeydiyyatdan keçə bilər" + "\n" +"Kart nömrəsi: " +txbx_generated_card_number.Text);
+            MessageBox.Show("Kart satışa çıxarıldı" +"\n" + "Istifadəçi artıq kart ilə qeydiyyatdan keçə bilər" + "\n" 
+                            +"Kart nömrəsi: " +txbx_generated_card_number.Text);
+        }
 
-            //pass to user registration form//
-            UserRegistrationForm user_reg_form = new UserRegistrationForm();
-            user_reg_form.Show();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //pass to admin form//
+            MessageBox.Show("İstifadəçilər,istifadəçi panelinə daxil olaraq" + "\n"
+               + "satışdakı kart nömrələri ilə qeydiyyatdan keçib sistemə daxil ola bilərlər");
+            UserRegistrationForm reg_form = new UserRegistrationForm();
+            reg_form.Show();
             Visible = false;
+            //reg_form.lbl_cards_list.Visible = true;
         }
     }
 }

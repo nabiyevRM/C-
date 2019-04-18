@@ -81,7 +81,7 @@ namespace helpdesk_service
                 user_current_money.Text = Convert.ToString(changedCurrentPrice) + " AZN";
                 foreach (CardModel prices in currentPrices)
                 {
-                    prices.CardPrice = user_current_money.Text;
+                    prices.CardPrice = Convert.ToString(balance);
                 }
                 MessageBox.Show("Xidmət sifariş olundu" + "\n" + "Əməkdaşlar sizinlə əlaqə saxlıyacaq");
                 // hide elements when id btn clicks //

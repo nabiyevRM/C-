@@ -63,20 +63,20 @@ namespace helpdesk_service
 
         private void AdminManagementForm_Load(object sender, EventArgs e)
         {
-            // adding card details form userDB to admin managment form //
+            // adding card,card using date,card when created and card expiry date information to admin management form //
             ArrayList userData = UserDatabase.GetAllUsersData();
             foreach (UserModel user in userData)
             {
                 lbl_when_used_date.Text = Convert.ToString(user.CardUsedTime);
 
-                if(user.Name == null)
+                if (user.Name == null)
                 {
                     lbl_card_user.Text = user.Email;
                 }
                 else
                 {
                     lbl_card_user.Text = user.Name;
-                }  
+                }
             }
 
             // adding card details form cardDB to admin managment form //
@@ -89,17 +89,25 @@ namespace helpdesk_service
                 lbl_card_number.Text = card.CardNumber;
             }
 
+            // adding card details to cards list //
+            ArrayList cardDetails = CardDetailsDB.GetAllCardData();          
+            foreach (CardModel card in cardDetails)
+            {
+                lbl_list_card_numbers.Text += card.CardNumber + "\n";
+                lbl_list_card_prices.Text += card.CardPrice + "\n";
+            }
+
             // hide edit section when form loads //
             month_list.Visible = false;
             years_list.Visible = false;
             lbl_edit_name.Visible = false;
             btn_edit_submit.Visible = false;
             days_list.Visible = false;
+            lbl_cards_list.Visible = false;
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
             // remove user from database //
             ArrayList cardData = CardDetailsDB.GetAllCardData();
             ArrayList userData = UserDatabase.GetAllUsersData();
@@ -144,9 +152,7 @@ namespace helpdesk_service
             // updated date method and set it to card details expiry date //
             DateTime updatedDate = new DateTime(year, monthValue, day);
             MessageBox.Show("Kartın müddəti " + updatedDate.ToString() + " zamana kimi uzadıldı");
-            lbl_expary_date.Text = Convert.ToString(updatedDate);
-            
-            
+            lbl_expary_date.Text = Convert.ToString(updatedDate); 
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -160,6 +166,18 @@ namespace helpdesk_service
         {
             HelpdeskServiceForm helpdesk_form = new HelpdeskServiceForm();
             helpdesk_form.Show();
+            Visible = false;
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UserRegistrationForm user_registration = new UserRegistrationForm();
+            user_registration.Show();
             Visible = false;
         }
     }

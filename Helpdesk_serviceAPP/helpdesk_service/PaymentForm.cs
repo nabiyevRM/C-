@@ -33,10 +33,16 @@ namespace helpdesk_service
                 int txbxAmount = Convert.ToInt32(txbx_payment_amount.Text);
                 if (txbxAmount <= cardBalance)
                 {
+                    int userAmount = 0;
+                    int userBalance = 0;
+
                     MessageBox.Show("Ödəniş uğurlu yerinə yetirildi" + "\n" + "Zəhmət olmasa balansı yoxluyun");
                     foreach (CardModel card in cardData)
                     {
-                        card.CardPrice = txbx_payment_amount.Text + " AZN";
+                        userAmount += Convert.ToInt32(txbx_payment_amount.Text);
+                        userBalance = Convert.ToInt32(card.CardPrice);
+                        userBalance += userAmount;
+                        card.CardPrice = Convert.ToString(userBalance) + "AZN";
                     }
                     // returnig to helpdesk service form //
                     HelpdeskServiceForm service_form = new HelpdeskServiceForm();

@@ -54,6 +54,11 @@
             this.btn_edit_submit = new System.Windows.Forms.Button();
             this.days_list = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbl_cards_list = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_list_card_numbers = new System.Windows.Forms.Label();
+            this.lbl_list_card_prices = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,7 +87,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(51, 90);
+            this.label3.Location = new System.Drawing.Point(54, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 16);
             this.label3.TabIndex = 2;
@@ -111,7 +116,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(261, 90);
+            this.label6.Location = new System.Drawing.Point(258, 90);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 16);
             this.label6.TabIndex = 4;
@@ -149,7 +154,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(51, 145);
+            this.label10.Location = new System.Drawing.Point(54, 145);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 16);
             this.label10.TabIndex = 6;
@@ -316,8 +321,8 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(409, 12);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(12, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 27;
@@ -325,11 +330,62 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // lbl_cards_list
+            // 
+            this.lbl_cards_list.AutoSize = true;
+            this.lbl_cards_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_cards_list.Location = new System.Drawing.Point(318, 248);
+            this.lbl_cards_list.Name = "lbl_cards_list";
+            this.lbl_cards_list.Size = new System.Drawing.Size(104, 16);
+            this.lbl_cards_list.TabIndex = 28;
+            this.lbl_cards_list.Text = "Satışdakı kartlar";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(324, 264);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 29;
+            // 
+            // lbl_list_card_numbers
+            // 
+            this.lbl_list_card_numbers.AutoSize = true;
+            this.lbl_list_card_numbers.Location = new System.Drawing.Point(318, 265);
+            this.lbl_list_card_numbers.Name = "lbl_list_card_numbers";
+            this.lbl_list_card_numbers.Size = new System.Drawing.Size(0, 13);
+            this.lbl_list_card_numbers.TabIndex = 31;
+            // 
+            // lbl_list_card_prices
+            // 
+            this.lbl_list_card_prices.AutoSize = true;
+            this.lbl_list_card_prices.Location = new System.Drawing.Point(422, 265);
+            this.lbl_list_card_prices.Name = "lbl_list_card_prices";
+            this.lbl_list_card_prices.Size = new System.Drawing.Size(0, 13);
+            this.lbl_list_card_prices.TabIndex = 32;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(384, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 23);
+            this.button2.TabIndex = 33;
+            this.button2.Text = "İstifadəçi paneli";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // AdminManagementForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 426);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.lbl_list_card_prices);
+            this.Controls.Add(this.lbl_list_card_numbers);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbl_cards_list);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.days_list);
             this.Controls.Add(this.btn_edit_submit);
@@ -369,16 +425,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lbl_card_number;
-        private System.Windows.Forms.Label lbl_card_create_time;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label lbl_card_user;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lbl_expary_date;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lbl_when_used_date;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label lbl_card_price;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel linkLabel1;
@@ -392,5 +442,16 @@
         private System.Windows.Forms.Button btn_edit_submit;
         private System.Windows.Forms.ListBox days_list;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_list_card_numbers;
+        private System.Windows.Forms.Label lbl_list_card_prices;
+        public System.Windows.Forms.Label lbl_cards_list;
+        private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Label lbl_card_number;
+        public System.Windows.Forms.Label lbl_card_user;
+        public System.Windows.Forms.Label lbl_expary_date;
+        public System.Windows.Forms.Label lbl_card_create_time;
+        public System.Windows.Forms.Label lbl_when_used_date;
+        public System.Windows.Forms.Label lbl_card_price;
     }
 }

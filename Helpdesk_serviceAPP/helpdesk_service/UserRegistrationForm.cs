@@ -56,9 +56,6 @@ namespace helpdesk_service
                     UserLoginForm user_login_form = new UserLoginForm();
                     user_login_form.Show();
                     Visible = false;
-                    //AdminManagementForm ad_form = new AdminManagementForm();
-                    //ad_form.Show();
-                    //Visible = false;
                 }
             }
         }
