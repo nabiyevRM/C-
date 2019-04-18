@@ -1,0 +1,60 @@
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csprojResolveAssemblyReference.cache
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.CompanyAdminForm.resources
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.RegistrantionAndPassLogin.resources
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.Properties.Resources.resources
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.GenerateResource.Cache
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.CoreCompileInputs.cache
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe.config
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.pdb
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.exe
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.pdb
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.GenerateCardsForSale.resources
+C:\Users\vusalkhn\source\repos\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.AdminPanelForm.resources
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe.config
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.pdb
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csprojAssemblyReference.cache
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.AdminPanelForm.resources
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.CompanyAdminForm.resources
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.GenerateCardsForSale.resources
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.RegistrantionAndPassLogin.resources
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.Properties.Resources.resources
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.GenerateResource.cache
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.CoreCompileInputs.cache
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.exe
+C:\Users\Interlude\Desktop\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.pdb
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe.config
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.pdb
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csprojAssemblyReference.cache
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.CompanyAdminForm.resources
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.GenerateCardsForSale.resources
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.Properties.Resources.resources
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.GenerateResource.cache
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.CoreCompileInputs.cache
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.exe
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.pdb
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.AdminManagementForm.resources
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.UserLoginForm.resources
+C:\Users\Interlude\Desktop\C# project\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.UserRegistrationForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe.config
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.exe
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\bin\Debug\helpdesk_service.pdb
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.AdminManagementForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.CompanyAdminForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.GenerateCardsForSale.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.UserRegistrationForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.Properties.Resources.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.UserLoginForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.GenerateResource.cache
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csproj.CoreCompileInputs.cache
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.exe
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.pdb
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.AddServiceForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.ServicesControl.service_forma.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.ServicesListForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.HelpdeskServiceForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.PaymentForm.resources
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.csprojAssemblyReference.cache
+C:\Users\Interlude\Desktop\C# project-2\C# project\helpdesk APP\helpdesk_service\helpdesk_service\obj\Debug\helpdesk_service.UsageRulesForm.resources
